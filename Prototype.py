@@ -49,7 +49,7 @@ def load_ref():
 @st.cache_resource
 def load_xgb_model():
     model = xgb.XGBClassifier()
-    model.load_model('model_xgb_new.json')
+    model.load_model('model_xgb_newest.json')
     return model
 
 fcode_list = ["CA001", "CCB03", "CS0I1", "KJ001", "KJ002", "KJ003", "KJ004", "KJ006", "KJ007", "KK0A5", "KK0B5", "KP001", "KP003", "KP007", "KP07A", "MG001", "MJ008", "RK007"]
